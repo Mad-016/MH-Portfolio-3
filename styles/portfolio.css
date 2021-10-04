@@ -1,14 +1,58 @@
-body {
-  background-color: aquamarine;
+:root {
+  --branding-color: #0881a3;
+  --secondary-color: #fffdfb;
+  --third-color: #fde9df;
+  --fourth-color: #ffd6a4;
+  --heading-font-family: "Domine", serif;
+  --default-font-family: "Inter", sans-serif;
 }
 
-h1 {
-  color: white;
-  font-family: "Domine", serif;
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
+h1 {
+  font-size: 96px;
+}
+
 p {
-  font-family: "Quicksand", sans-serif;
   font-weight: normal;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 140px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  color: #272142;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-weight: 600px;
+  line-height: 2;
+  font-size: 24px;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
