@@ -9,6 +9,7 @@
 
 body {
   font-family: var(--default-font-family);
+  background-color: var(--secondary-color);
 }
 
 h1,
@@ -37,11 +38,11 @@ p {
 
 img {
   filter: grayscale(0.9);
-  object-fit: cover;
+  opacity: 0.8;
 }
 
 .hero {
-  background: var(--secondary-color);
+  background: var(--third-color);
   text-align: center;
   padding: 120px 20px;
 }
@@ -69,6 +70,7 @@ img {
 }
 
 .btn-branding-outline {
+  background: white;
   color: var(--branding-color);
   border: 2px solid var(--branding-color);
   border-radius: 4px;
@@ -78,7 +80,7 @@ img {
 }
 
 .project-description {
-  padding: 80px 30px;
+  padding: 50px 30px;
 }
 
 .box {
