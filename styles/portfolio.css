@@ -1,0 +1,14 @@
+body {
+  background-color: aquamarine;
+}
+
+h1 {
+  color: white;
+  font-family: "Domine", serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+}
