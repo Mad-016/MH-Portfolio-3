@@ -60,21 +60,21 @@ img {
   font-size: 24px;
 }
 
-.about-section {
+.content-container {
   padding: 120px 20px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 54px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
 
