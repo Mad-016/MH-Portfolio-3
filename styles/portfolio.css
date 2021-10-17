@@ -128,6 +128,10 @@ a {
   max-width: 400px;
 }
 
+.about-content {
+  text-align: right;
+}
+
 nav {
   padding: 20px 0;
 }
@@ -229,6 +233,10 @@ footer p {
 
   nav a {
     font-size: 14px;
+  }
+
+  .headshot {
+    text-align: center;
   }
 
   .mapouter {
