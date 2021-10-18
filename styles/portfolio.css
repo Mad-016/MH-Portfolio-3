@@ -90,7 +90,7 @@ a:hover {
 }
 
 .content-container {
-  padding: 120px 20px;
+  padding: 110px 20px;
 }
 
 .content h1 {
@@ -284,14 +284,7 @@ footer p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .mapouter {
-    width: 350px;
-  }
-
-  .gmap_canvas {
-    width: 350px;
+    max-width: 300px;
   }
 
   .skills img {
