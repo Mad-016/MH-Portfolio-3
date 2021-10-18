@@ -30,6 +30,10 @@ h2 {
   line-height: 1.5;
 }
 
+h4 {
+  font-size: 40px;
+}
+
 p {
   font-weight: 600;
   font-size: 16px;
@@ -40,11 +44,32 @@ a {
   color: var(--branding-color);
 }
 
+a:hover {
+  color: var(--fourth-color);
+}
+
 .home-images img {
   filter: grayscale(0.9);
   opacity: 0.8;
 }
 
+.work img {
+  max-height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.skills img {
+  max-height: 70px;
+  display: inline-block;
+  padding: 0px;
+  float: right;
+}
+.preview-image {
+  background-color: var(--third-color);
+}
 .hero {
   background: var(--third-color);
   text-align: center;
@@ -111,6 +136,11 @@ a {
   padding: 15px 30px;
 }
 
+.btn-branding:hover,
+.btn-branding-outline:hover {
+  background: var(--fourth-color);
+}
+
 .project-description {
   padding: 50px 30px;
 }
@@ -152,9 +182,12 @@ nav a {
   color: grey;
   transition: all 100ms ease-in-out;
 }
-nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+}
+
+nav a:hover {
+  color: var(--fourth-color);
 }
 
 footer {
@@ -210,8 +243,16 @@ footer p {
   h1 {
     font-size: 60px;
   }
+  .work h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
   h2 {
     font-size: 40px;
+  }
+
+  h4 {
+    font-size: 30px;
   }
   .hero {
     padding: 70px 20px;
@@ -236,7 +277,9 @@ footer p {
   }
 
   .headshot {
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .mapouter {
@@ -245,5 +288,9 @@ footer p {
 
   .gmap_canvas {
     width: 350px;
+  }
+
+  .skills img {
+    float: none;
   }
 }
