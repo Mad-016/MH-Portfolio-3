@@ -51,6 +51,8 @@ a:hover {
 .home-images img {
   filter: grayscale(0.9);
   opacity: 0.8;
+  border: solid var(--branding-color);
+  border-width: thin;
 }
 
 .work img {
